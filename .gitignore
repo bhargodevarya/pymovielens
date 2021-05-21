@@ -1,0 +1,6 @@
+data
+/venv/
+/build/
+/dist/
+/pymovielens.egg-info/
+.idea/
