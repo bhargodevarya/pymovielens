@@ -4,3 +4,5 @@ data
 /dist/
 /pymovielens.egg-info/
 .idea/
+**__pycache__
+tags/__pycache__
