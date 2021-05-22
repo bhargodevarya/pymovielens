@@ -10,3 +10,14 @@
 
 # from tags.tags import show_tags
 # show_tags()
+
+from movies import Movie
+
+mo = Movie.Movie
+
+#print(next(mo.load("./data/movies.dat")))
+
+for m in mo.load_all("./data/movies.dat"):
+    print(m.name)
+
+

@@ -39,3 +39,10 @@ from tags.tags import show_tags
 
 show_tags()
 
+
+# How to import a class
+
+There is a class named Movie in a file named Movie.py in a package named movie
+
+![img_1.png](img_1.png)
+from movie import Movie.Movie
